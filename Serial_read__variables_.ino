@@ -19,10 +19,10 @@ void loop(){
 }
 
 /*
-  SerialEvent occurs whenever a new data comes in the
- hardware serial RX.  This routine is run between each
- time loop() runs, so using delay inside loop can delay
- response.  Multiple bytes of data may be available.
+ En este proceso se realiza la lectura de forma serial 
+ entre el Arduino y el Labview, lo que inicializa es cualquier 
+ elemento asignado a una salida del Arduino la ejecuta, ejecuta una acción}
+ 
  */
 void serialEvent() {
   while (Serial.available()) {
